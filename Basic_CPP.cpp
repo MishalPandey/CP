@@ -154,3 +154,58 @@ for prime ---->(sieve algorithm)
       }
      }
 */
+  
+ 
+ Comparator class
+  
+  /*
+  struct Tuple
+  {
+    int wt;
+    int v;
+    string path;
+
+    Tuple(int wt, int v, string path)
+    {
+      this->wt = wt;
+      this->v = v;
+      this->path = path;
+    }
+  };
+
+  struct compo
+  {
+    bool operator()(Tuple const &t1, Tuple const t2)
+    {
+      if(t1.wt == t2.wt)
+      {
+        if(t1.path.size() == t2.path.size())
+          return t1.path > t2.path;
+
+        else
+          return t1.path.size() > t2.path.size();
+      }
+
+      return t1.wt > t2.wt;
+    }
+  };
+  
+  priority_queue <Tuple, vector <Tuple>, compo> pq;
+      pq.push(Tuple(0, src, to_string(src)));
+  
+  */
+  
+ Comparator Function
+ /*
+ 
+    bool compare(Tuple a, Tuple b){
+        if(a.wt==b.wt)
+          return a.path.size()<b.path.size();
+          
+          return a.wt<b.wt;
+   }
+   vector<Tuple>v;
+   sort(v.begin(), v.end(), compare);
+  */
+
+ 
