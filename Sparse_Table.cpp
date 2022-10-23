@@ -42,11 +42,13 @@ int main(){
     for(int i=0; i+(1<<k)-1<n; i++){
       m[i][k]= min(m[i][k-1], m[i+(1<<(k-1))][k-1]);
     }
-    // yeh m[i][1]--> for every i
-      // m[i][2]-->for every i
-      // m[i][4]-->for every i
-       // m[i][8]-->for every i store kar rha hai
+    // yeh m[i][1]--> for every i    1= 2^0
+      // m[i][2]-->for every i        2= 2^1
+      // m[i][4]-->for every i         4= 2^2
+       // m[i][8]-->for every i store kar rha hai     8= 2^3                                                   
   }
+   //but here this type store kar rhe hai
+    // m[i][k]-->for every i store kar rha hai  x= 2^k
   
   
   
