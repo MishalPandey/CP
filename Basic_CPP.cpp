@@ -110,7 +110,7 @@ Basics
 //******m.count(x) // gives m.fs=x is present or not note...
 
 // declaration vec[n][m]--->>> vector<vector<int>>a(n , vector<int> (m , 0));
-/* ********* FOR DIV 2 QUESTION 1 ALWAYS OBSERVATION OF TESTCASE WILL GIVE THE ANSWER IMMEDIATELY*/
+
 
 
     
