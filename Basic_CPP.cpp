@@ -12,8 +12,8 @@ using xtset = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_nod
 //*xtset(name).find_by_order(x)---element x kis index pe hai batayega
 
 
-#define l_b(v, k)   lower_bound(v.begin(), v.end(), k)// it gives pointer
-#define u_b(v, k)   upper_bound(v.begin(), v.end(), k)// it gives pointer
+#define l_b(v, k)   lower_bound(v.begin(), v.end(), k)
+#define u_b(v, k)   upper_bound(v.begin(), v.end(), k)
 
 
 
